@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TextField(
                 controller: txt_f,
-                decoration: InputDecoration(labelText: op2, hintText: "0"),
+                decoration: InputDecoration(labelText: op2, hintText: "0.0"),
               ),
               Expanded(
                 child: GridView.builder(
