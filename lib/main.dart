@@ -117,13 +117,11 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TextField(
                 controller: txt_i,
-                decoration: InputDecoration(
-                    labelText: "Divisa de origen", hintText: "0"),
+                decoration: InputDecoration(labelText: op1, hintText: "0"),
               ),
               TextField(
                 controller: txt_f,
-                decoration: InputDecoration(
-                    labelText: "Divisa de final", hintText: "0"),
+                decoration: InputDecoration(labelText: op2, hintText: "0"),
               ),
               Expanded(
                 child: GridView.builder(
